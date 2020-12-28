@@ -1,0 +1,23 @@
+{
+	"name": "rss-alert",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"dev": "nodemon app.js",
+		"serve": "node app.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"nodemon": "^2.0.6"
+	},
+	"dependencies": {
+		"ejs": "^3.1.5",
+		"express": "^4.17.1",
+		"helmet": "^4.3.1",
+		"morgan": "^1.10.0",
+		"rss-parser": "^3.10.0"
+	}
+}
